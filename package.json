@@ -1,0 +1,31 @@
+{
+  "name": "phongbach-heroku",
+  "version": "1.0.0",
+  "description": "IA7 heroku app",
+  "main": "server-compiled.js",
+  "scripts": {
+    "dev": "nodemon --exec node server.compiled.js",
+    "build": "babel server.js --out-file server.compiled.js",
+    "start": "node server.compiled.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node.js",
+    "express.js",
+    "react",
+    "heroku"
+  ],
+  "author": "P. Bach",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/node": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "nodemon": "^2.0.14"
+  }
+}
