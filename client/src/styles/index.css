@@ -376,9 +376,9 @@ button::-moz-focus-inner {
 .toast-container {
   background-color: lightgoldenrodyellow;
   width: 100%;
-  line-height: 40px;
+  line-height: 60px;
   display: flex;
-   
+  position: relative;
 }
 
 .toast-text {
@@ -388,9 +388,16 @@ button::-moz-focus-inner {
 }
 
 .toast-close {
- pointer-events: visible;
- margin-left: auto;
- vertical-align: middle;
+  pointer-events: visible;
+  margin-left: auto;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  height: 30px;
+  width: 30px;
+  line-height: 1;
+  border: none;
+  background: none;
 }
 
 /*************************************************************************
